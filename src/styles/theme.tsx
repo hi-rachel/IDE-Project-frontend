@@ -16,6 +16,7 @@ export const darkTheme: DefaultTheme = {
   colors: {
     primary: "#404EED",
     bg: "#1B1D24",
+    headerBg: "#1B1D24",
     btnHover: "#D9DCFB",
     btnText: "#333EBE",
     black: "#000",

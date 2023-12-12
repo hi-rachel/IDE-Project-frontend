@@ -5,7 +5,7 @@ import Login from "../pages/LoginPage/Login";
 import SignUp from "../pages/SignUpPage/SignUp";
 import MyPage from "../pages/MyPage/MyPage";
 import GuestEnterPage from "../pages/GuestEnterPage/GuestEnterPage";
-import IDEPage from "../pages/IDEPage/IDEPage";
+// import IDEPage from "../pages/IDEPage/IDEPage";
 import MainLayout from "../layout/MainLayout";
 
 export const AppRoutes = () => {
@@ -19,7 +19,7 @@ export const AppRoutes = () => {
       <Route path="/signup" element={<SignUp />} />
       <Route path="/mypage" element={<MyPage />} />
       <Route path="/guest-enter" element={<GuestEnterPage />} />
-      <Route path="/ide" element={<IDEPage />} />
+      {/* <Route path="/ide" element={<IDEPage />} /> */}
     </Routes>
   );
 };

@@ -13,7 +13,7 @@ const MainHeader = () => {
         <Logo>DJIDE</Logo>
         <StyledLink
           to="/mypage"
-          style={{ textDecoration: "none", color: "inherit" }}
+          style={{ textDecoration: 'none', color: 'inherit' }}
         >
           {isLoggedIn ? <UserInfo /> : <LoginSignUpLink />}
         </StyledLink>

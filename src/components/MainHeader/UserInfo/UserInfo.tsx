@@ -1,4 +1,4 @@
-import { UserInfoDiv, UserName, UserProfileImg } from "./UserInfo.style";
+import { UserInfoDiv, UserName, UserProfileImg } from './UserInfo.style';
 
 export const UserInfo = () => {
   return (

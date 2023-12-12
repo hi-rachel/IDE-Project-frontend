@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { darkTheme, lightTheme } from "../styles/theme";
+import { useState } from 'react';
+import { darkTheme, lightTheme } from '../styles/theme';
 
 const useAppTheme = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);

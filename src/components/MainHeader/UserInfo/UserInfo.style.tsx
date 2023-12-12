@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const UserInfoDiv = styled.div`
   display: flex;
@@ -18,7 +18,7 @@ export const UserProfileImg = styled.div`
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background: ${(props) => props.theme.colors.primary};
+  background: ${props => props.theme.colors.primary};
   margin-right: 10px;
   cursor: pointer;
 `;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ThemeBtn = styled.button`
   position: fixed;
@@ -7,5 +7,5 @@ export const ThemeBtn = styled.button`
   background: none;
   border: none;
   cursor: pointer;
-  color: ${(props) => props.theme.colors.text};
+  color: ${props => props.theme.colors.text};
 `;

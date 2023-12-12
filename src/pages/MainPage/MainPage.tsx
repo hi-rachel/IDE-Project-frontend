@@ -1,4 +1,4 @@
-import { MainContainer } from "./MainPage.style";
+import { MainContainer } from './MainPage.style';
 
 const MainPage = () => {
   return (

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
   display: flex;
@@ -6,13 +6,13 @@ export const HeaderContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 60px;
-  background: ${(props) => props.theme.colors.headerBg};
-  color: ${(props) => props.theme.colors.text};
+  background: ${props => props.theme.colors.headerBg};
+  color: ${props => props.theme.colors.text};
   padding-top: 10px;
 `;
 
 export const Logo = styled.div`
-  color: ${(props) => props.theme.colors.text};
+  color: ${props => props.theme.colors.text};
   font-size: 2.3rem;
   font-weight: 700;
   padding: 20px;

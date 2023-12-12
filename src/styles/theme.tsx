@@ -1,14 +1,14 @@
-import { DefaultTheme } from "styled-components";
+import { DefaultTheme } from 'styled-components';
 
 export const lightTheme: DefaultTheme = {
   colors: {
-    primary: "#404EED",
-    bg: "#F6F8F9",
-    headerBg: "#fff",
-    btnHover: "#D9DCFB",
-    btnText: "#333EBE",
-    black: "#000",
-    text: "#333",
+    primary: '#404EED',
+    bg: '#F6F8F9',
+    headerBg: '#fff',
+    btnHover: '#D9DCFB',
+    btnText: '#333EBE',
+    black: '#000',
+    text: '#333',
   },
 };
 

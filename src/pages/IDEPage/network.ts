@@ -4,7 +4,7 @@ import {
   ClientStatus,
   StreamConnectionStatus,
   DocumentSyncResultType,
-} from "yorkie-js-sdk";
+} from 'yorkie-js-sdk';
 export const network = {
   isOnline: false,
   showOffline: (elem: HTMLElement) => {

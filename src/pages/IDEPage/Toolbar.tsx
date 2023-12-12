@@ -6,7 +6,7 @@ import {
   AiOutlineAudio,
 } from 'react-icons/ai';
 import { ToolbarContainer } from './IDEPage.style';
-import { IconContext } from "react-icons";
+import { IconContext } from 'react-icons';
 
 const Toolbar = () => {
   return (

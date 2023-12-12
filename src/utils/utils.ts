@@ -1,5 +1,5 @@
-import { Document, Indexable } from "yorkie-js-sdk";
-import { YorkieDoc } from "../types/type";
+import { Document, Indexable } from 'yorkie-js-sdk';
+import { YorkieDoc } from '../types/type';
 
 // function to display peers
 export function displayPeers(

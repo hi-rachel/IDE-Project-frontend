@@ -17,25 +17,25 @@ body {
 }
 
 #network-status:before {
-  content: "network: ";
+  content: 'network: ';
   font-size: 1rem;
 }
 
 #peers:before {
   display: block;
-  content: "peers: ";
+  content: 'peers: ';
   font-size: 1rem;
 }
 
 #document:before {
   display: block;
-  content: "document: ";
+  content: 'document: ';
   font-size: 1rem;
 }
 
 #document-text:before {
   display: block;
-  content: "text: ";
+  content: 'text: ';
   font-size: 1rem;
 }
 
